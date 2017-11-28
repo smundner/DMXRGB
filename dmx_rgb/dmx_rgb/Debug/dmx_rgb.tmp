@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATtiny2313"</DEVICE>
+ <WORKING_DIR>c:\users\service\Documents\Atmel Studio\7.0\dmx_rgb\dmx_rgb\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.2.118\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\service\Documents\Atmel Studio\7.0\dmx_rgb\dmx_rgb\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.2.118\avrasm\inc\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\service\Documents\Atmel Studio\7.0\dmx_rgb\dmx_rgb\Debug\dmx_rgb.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>dmx_rgb.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>dmx_rgb.map</FILE>
+  <FILE>dmx_rgb.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>c:\users\service\Documents\Atmel Studio\7.0\dmx_rgb\dmx_rgb\main.asm</FILE><LINE>8</LINE></start>
+  <loop><FILE>c:\users\service\Documents\Atmel Studio\7.0\dmx_rgb\dmx_rgb\main.asm</FILE><LINE>27</LINE></loop>
+ </LABELS>
+</ASSEMBLER_INFO>

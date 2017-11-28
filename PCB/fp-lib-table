@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Housings_DIP)(type KiCad)(uri "$(KISYSMOD)/Housings_DIP.pretty")(options "")(descr ""))
+  (lib (name Crystals)(type KiCad)(uri "$(KISYSMOD)/Crystals.pretty")(options "")(descr ""))
+  (lib (name Capacitors_THT)(type KiCad)(uri "$(KISYSMOD)/Capacitors_THT.pretty")(options "")(descr ""))
+)
