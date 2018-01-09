@@ -1,8 +1,8 @@
 .SUFFIXES: .elf .hex
 
 CC = avr-gcc
-CFLAGS= -DF_CPU=8000000 -Wall -Os 
-OBJECTS = main.o 
+CFLAGS= -DF_CPU=16000000 -Wall -Os 
+OBJECTS = main.o usart.o
 MCU = attiny2313
 TARGET = dmxRgb
 
