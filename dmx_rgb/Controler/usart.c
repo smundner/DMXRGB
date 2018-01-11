@@ -2,8 +2,8 @@
 void USART_Init(unsigned int baud){
 	UBRRH = (unsigned char)(baud>>8);
 	UBRRL = (unsigned char)baud;
-	UCSRB = (1<<RXEN)|(1<<TXEN)|(1<<RXCIE);
-	UCSRC = (1<<USBS)|(3<<UCSZ0);
+	UCSRB = (1<<RXEN)|(1<<TXEN);//|(1<<RXCIE);
+	UCSRC = (1<<UCSZ0)|(1<<UCSZ1);
 }
 
 void USART_Transmit(unsigned char data ){

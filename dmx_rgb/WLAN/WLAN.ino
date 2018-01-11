@@ -9,7 +9,7 @@ WiFiUDP udp;
 WiFiClient sclient;
 
 void setup() {
-  Serial.begin(250000,SERIAL_8N2);
+  Serial.begin(250000);
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid,password);
   //WiFi.softAP(ssid, password);
