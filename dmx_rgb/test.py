@@ -2,7 +2,7 @@ import socket
 import struct
 from threading import Thread
 
-ip = "192.168.4.2"
+ip = "192.168.3.116"
 
 def udp_rec():
     udp_rec_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -32,12 +32,7 @@ def main():
         tcp_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         src_ip_addr, src_port = addr 
         tcp_sock.connect((src_ip_addr,5999))
-        rgb=bytearray()
-        rgb.append(255)
-        rgb.append(255)
-        rgb.append(255)
-        print(rgb,' to ',src_ip_addr)
-        tcp_sock.send(rgb)
+        tcp_sock.send(bytes([255,255,255]))
         tcp_sock.close()
 
 if __name__ == '__main__':
