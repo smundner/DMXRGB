@@ -37,8 +37,13 @@ void loop() {
     //Serial.println("Data send");
     byte buff[3];
     sclient.read(buff, 3);
-    Serial.write(buff, 3);
     sclient.stop();
+    Serial.end();
+    pinMode(1,OUTPUT);
+    digitalWrite(1,LOW);
+    delay(1);
+    Serial.begin(250000,SERIAL_8N2);
+    Serial.write(buff, 3);
   }
 
 
