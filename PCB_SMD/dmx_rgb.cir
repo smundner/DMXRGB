@@ -1,0 +1,40 @@
+* C:\Users\Service\Documents\GitHub\DMXRGB\PCB_SMD\dmx_rgb.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 27.01.2018 08:01:35
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+Y1  Net-_C1-Pad1_ Net-_C2-Pad1_ Crystal		
+C1  Net-_C1-Pad1_ GND C		
+C2  Net-_C2-Pad1_ GND C		
+C3  /RESET GND C		
+C4  VCC GND C		
+R3  VCC /RESET R		
+C8  VCC GND C		
+R6  GND /PWM1 R		
+R7  GND /PWM2 R		
+R8  GND /PWM3 R		
+Q1  /PWM1 Net-_J5-Pad2_ GND Q_NMOS_GDS		
+Q2  /PWM2 Net-_J5-Pad3_ GND Q_NMOS_GDS		
+Q3  /PWM3 Net-_J5-Pad4_ GND Q_NMOS_GDS		
+J1  Net-_D1-Pad4_ Net-_D1-Pad2_ CONN_01X02		
+J4  Net-_J4-Pad1_ Net-_J4-Pad2_ GND CONN_01X03		
+J6  +12V Net-_J5-Pad2_ Net-_J5-Pad3_ Net-_J5-Pad4_ CONN_01X04		
+J5  +12V Net-_J5-Pad2_ Net-_J5-Pad3_ Net-_J5-Pad4_ CONN_01X04		
+C5  +12V GND CP		
+C6  +12V GND CP		
+C7  VCC GND C		
+R4  VCC Net-_J2-Pad4_ R		
+R5  VCC Net-_J2-Pad6_ R		
+R2  Net-_J2-Pad3_ VCC R		
+R1  Net-_J2-Pad5_ VCC R		
+U1  /RESET /RXD /TXD Net-_C1-Pad1_ Net-_C2-Pad1_ /DIR ? ? ? GND ? ? ? /PWM1 /PWM2 /PWM3 /MOSI/SDA /MISO /SCL/SCK VCC ATTINY2313-20PU		
+D1  +12V Net-_D1-Pad2_ GND Net-_D1-Pad4_ D_Bridge_+A-A		
+U2  +12V GND VCC L7805		
+J2  /TXD VCC Net-_J2-Pad3_ Net-_J2-Pad4_ Net-_J2-Pad5_ Net-_J2-Pad6_ GND /RXD Conn_02x04_Odd_Even		
+J3  /MISO VCC /SCL/SCK /MOSI/SDA /RESET GND Conn_02x03_Odd_Even		
+U3  /RXD /DIR /DIR /TXD GND Net-_J4-Pad2_ Net-_J4-Pad1_ VCC MAX485E		
+
+.end
