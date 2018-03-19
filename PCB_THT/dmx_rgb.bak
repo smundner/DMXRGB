@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "DMX to RGB"
+Date "2017-11-27"
+Rev "1"
+Comp "Sebastian Mundner"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -191,35 +191,35 @@ $EndComp
 $Comp
 L R R6
 U 1 1 59A666EC
-P 7400 6000
-F 0 "R6" V 7480 6000 50  0000 C CNN
-F 1 "R" V 7400 6000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7330 6000 50  0001 C CNN
-F 3 "" H 7400 6000 50  0001 C CNN
-	1    7400 6000
-	-1   0    0    1   
+P 7250 5800
+F 0 "R6" V 7330 5800 50  0000 C CNN
+F 1 "R" V 7250 5800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7180 5800 50  0001 C CNN
+F 3 "" H 7250 5800 50  0001 C CNN
+	1    7250 5800
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R7
 U 1 1 59A66742
-P 8850 6000
-F 0 "R7" V 8930 6000 50  0000 C CNN
-F 1 "R" V 8850 6000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 6000 50  0001 C CNN
-F 3 "" H 8850 6000 50  0001 C CNN
-	1    8850 6000
-	-1   0    0    1   
+P 8700 5800
+F 0 "R7" V 8780 5800 50  0000 C CNN
+F 1 "R" V 8700 5800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8630 5800 50  0001 C CNN
+F 3 "" H 8700 5800 50  0001 C CNN
+	1    8700 5800
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R8
 U 1 1 59A6677F
-P 10200 6000
-F 0 "R8" V 10280 6000 50  0000 C CNN
-F 1 "R" V 10200 6000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10130 6000 50  0001 C CNN
-F 3 "" H 10200 6000 50  0001 C CNN
-	1    10200 6000
-	-1   0    0    1   
+P 10050 5800
+F 0 "R8" V 10130 5800 50  0000 C CNN
+F 1 "R" V 10050 5800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9980 5800 50  0001 C CNN
+F 3 "" H 10050 5800 50  0001 C CNN
+	1    10050 5800
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR07
@@ -230,39 +230,6 @@ F 1 "GND" H 2350 5200 50  0000 C CNN
 F 2 "" H 2350 5350 50  0001 C CNN
 F 3 "" H 2350 5350 50  0001 C CNN
 	1    2350 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NMOS_GDS Q1
-U 1 1 59A67C18
-P 7650 5800
-F 0 "Q1" H 7850 5850 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 7850 5750 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 7850 5900 50  0001 C CNN
-F 3 "" H 7650 5800 50  0001 C CNN
-	1    7650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NMOS_GDS Q2
-U 1 1 59A67C72
-P 9100 5800
-F 0 "Q2" H 9300 5850 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 9300 5750 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 9300 5900 50  0001 C CNN
-F 3 "" H 9100 5800 50  0001 C CNN
-	1    9100 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NMOS_GDS Q3
-U 1 1 59A67CB8
-P 10450 5800
-F 0 "Q3" H 10650 5850 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 10650 5750 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 10650 5900 50  0001 C CNN
-F 3 "" H 10450 5800 50  0001 C CNN
-	1    10450 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -316,11 +283,11 @@ Text Label 4200 6600 2    60   ~ 0
 RXD
 Text Label 4200 6700 2    60   ~ 0
 TXD
-Text Label 6950 5800 0    60   ~ 0
+Text Label 6800 5800 0    60   ~ 0
 PWM1
-Text Label 8350 5800 0    60   ~ 0
+Text Label 8250 5800 0    60   ~ 0
 PWM2
-Text Label 9800 5800 0    60   ~ 0
+Text Label 9600 5800 0    60   ~ 0
 PWM3
 Text Label 4200 6800 2    60   ~ 0
 DIR
@@ -461,35 +428,11 @@ Wire Wire Line
 Wire Wire Line
 	1600 5900 1300 5900
 Wire Wire Line
-	6950 5800 7450 5800
-Wire Wire Line
-	7400 5800 7400 5850
-Wire Wire Line
-	7400 6150 7750 6150
-Wire Wire Line
 	7750 6000 7750 6250
-Connection ~ 7750 6150
 Wire Wire Line
 	9200 6000 9200 6250
 Wire Wire Line
-	8850 6150 9200 6150
-Connection ~ 9200 6150
-Wire Wire Line
-	8850 5850 8850 5800
-Wire Wire Line
-	8350 5800 8900 5800
-Wire Wire Line
 	10550 6000 10550 6250
-Wire Wire Line
-	10200 6150 10550 6150
-Connection ~ 10550 6150
-Wire Wire Line
-	10200 5850 10200 5800
-Wire Wire Line
-	9800 5800 10250 5800
-Connection ~ 10200 5800
-Connection ~ 8850 5800
-Connection ~ 7400 5800
 Wire Wire Line
 	3950 6800 4200 6800
 Wire Wire Line
@@ -876,4 +819,49 @@ Wire Wire Line
 	5900 6450 5850 6450
 Wire Wire Line
 	1500 3950 1800 3950
+$Comp
+L Q_NPN_EBC Q3
+U 1 1 5AAD1766
+P 10450 5800
+F 0 "Q3" H 10650 5850 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 10650 5750 50  0000 L CNN
+F 2 "" H 10650 5900 50  0001 C CNN
+F 3 "" H 10450 5800 50  0001 C CNN
+	1    10450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_EBC Q2
+U 1 1 5AAD1830
+P 9100 5800
+F 0 "Q2" H 9300 5850 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 9300 5750 50  0000 L CNN
+F 2 "" H 9300 5900 50  0001 C CNN
+F 3 "" H 9100 5800 50  0001 C CNN
+	1    9100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_EBC Q1
+U 1 1 5AAD18A6
+P 7650 5800
+F 0 "Q1" H 7850 5850 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 7850 5750 50  0000 L CNN
+F 2 "" H 7850 5900 50  0001 C CNN
+F 3 "" H 7650 5800 50  0001 C CNN
+	1    7650 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5800 7100 5800
+Wire Wire Line
+	8250 5800 8550 5800
+Wire Wire Line
+	9600 5800 9900 5800
+Wire Wire Line
+	10200 5800 10250 5800
+Wire Wire Line
+	8850 5800 8900 5800
+Wire Wire Line
+	7400 5800 7450 5800
 $EndSCHEMATC

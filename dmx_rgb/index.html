@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Licht</title>
+	<style>
+		label,button {
+			display: block;
+			margin: 2em;
+		}
+		input{
+			width:10em;
+		}
+	</style>
+	<script>
+	function ok_click(){
+		var red = parseInt(document.getElementById("red").value);
+		var blue = parseInt(document.getElementById("blue").value);
+		var green = parseInt(document.getElementById("green").value);
+		document.getElementById("ausgabe").value=red+blue+green;
+		navigator.tcpPermission.requestPermission({remoteAddress:"127.0.0.1", remotePort:5997}).then(
+  () => {
+    // Permission was granted
+    // Create a new TCP client socket and connect to remote host
+    var mySocket = new TCPSocket("127.0.0.1", 5997);
+
+    // Send data to server
+    mySocket.writeable.write("Hello World");
+	});
+	}
+	
+	</script>
+  </head>
+  <body>
+	<form>
+	<label for="red">Rot:
+		<input id="red" type="range" min="0" max="255"/> 
+		</label>
+	<label for="blue">Blau:	
+		<input id="blue" type="range" min="0" max="255"/> 
+		</label>
+	<label for="green">Grün:
+		<input id="green" type="range" min="0" max="255"/> 
+		</label>
+	<button id="ok" type="button" onclick="ok_click()">OK</button>
+	<label>
+		<output id="ausgabe"></output>
+		</label>
+	</form>
+  </body>
+</html>

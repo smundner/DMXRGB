@@ -1,6 +1,6 @@
 import serial
-ser = serial.Serial('/dev/cu.usbserial-A100AO22',9600)
+ser = serial.Serial('COM5',9600)
 
-ser.write(bytes([0,0,0]))
+
 while True:
-    print(ser.read())
+    print(int.from_bytes(ser.read(),byteorder='big'))

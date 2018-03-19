@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <WiFiUDP.h>
 
-const char* ssid = "VigoHotel";
-const char* password = "vigo2015";
+const char* ssid = "Krypto";
+const char* password = "AnDeZe20Mu";
 
 WiFiServer server(5999);
 WiFiUDP udp;
@@ -38,10 +38,11 @@ void loop() {
     byte buff[3];
     sclient.read(buff, 3);
     sclient.stop();
+    /*
     Serial.end();
     pinMode(1,OUTPUT);
     digitalWrite(1,LOW);
-    delay(1);
+    delay(1);*/
     Serial.begin(250000,SERIAL_8N2);
     Serial.write(buff, 3);
   }
