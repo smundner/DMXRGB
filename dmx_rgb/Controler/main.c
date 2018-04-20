@@ -21,16 +21,17 @@ ISR(USART_RX_vect){
 */
 void PORT_Init(){
 	DDRB|=(1<<PB2)|(1<<PB3)|(1<<PB4);
+	//PORTB|=(1<<PB2)|(1<<PB3)|(1<<PB4);
 
 }
 void TIMER_Init(){
-    TCCR0A=(1<<COM0A1)|(1<<WGM01)|(1<<WGM00);//phase corect pwm
+    TCCR0A=(1<<COM0A1)/*|(1<<WGM01)*/|(1<<WGM00);//phase corect pwm
     TCCR0B=(1<<CS00);
     OCR0A=0xff;
     TCCR1A=(1<<COM1A1)|(1<<COM1B1)|(1<<WGM10);//phase corect pwm
-    TCCR1B=(1<<CS10)|(1<<WGM12);
-    OCR1A=0x00ff;
-    OCR1B=0x00ff;
+    TCCR1B=(1<<CS10);//|(1<<WGM12);
+    OCR1A=0xff;
+    OCR1B=0xff;
 }
 
 
