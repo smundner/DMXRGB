@@ -75,7 +75,7 @@ void reconnect() {
   while (!client.connected()) {
 
     // Attempt to connect
-    if (client.connect("ESP8266Client")) {
+    if (client.connect("ESP8266Client","local","local")) {
       client.subscribe("FlurLicht");
     } else {
       delay(5000);
