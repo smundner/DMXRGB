@@ -1,8 +1,8 @@
-Archive member included to satisfy reference by file (symbol)
+Archive member included because of file (symbol)
 
-c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
-                              c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o (exit)
-c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o (exit)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
                               main.o (__do_clear_bss)
 
 Allocating common symbols
@@ -12,50 +12,45 @@ rgb                 0x3               main.o
 
 Discarded input sections
 
- .data          0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
- .bss           0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
  .text          0x00000000        0x0 main.o
- .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
  .bss.update    0x00000000        0x1 main.o
  .bss.data_pointer
                 0x00000000        0x1 main.o
  COMMON         0x00000000        0x3 main.o
  .text          0x00000000        0x0 usart.o
- .data          0x00000000        0x0 usart.o
  .bss           0x00000000        0x0 usart.o
- .text          0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
- .data          0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
- .bss           0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.div
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
- .text.libgcc   0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
- .text          0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
- .data          0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
- .bss           0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .text.libgcc.mul
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x00000000        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
 
 Memory Configuration
 
@@ -63,7 +58,7 @@ Name             Origin             Length             Attributes
 text             0x00000000         0x00002000         xr
 data             0x00800060         0x0000ffa0         rw !x
 eeprom           0x00810000         0x00010000         rw !x
-fuse             0x00820000         0x00000003         rw !x
+fuse             0x00820000         0x00000400         rw !x
 lock             0x00830000         0x00000400         rw !x
 signature        0x00840000         0x00000400         rw !x
 user_signatures  0x00850000         0x00000400         rw !x
@@ -71,25 +66,17 @@ user_signatures  0x00850000         0x00000400         rw !x
 
 Linker script and memory map
 
-LOAD c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
 START GROUP
-LOAD c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack\libm.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/libm.a
 END GROUP
 LOAD main.o
 LOAD usart.o
 START GROUP
-LOAD c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a
-LOAD c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack\libm.a
-LOAD c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack\libc.a
-LOAD c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack\libattiny2313.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/libm.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/libc.a
 END GROUP
-                0x00002000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
-                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
-                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
-                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
-                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
-                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
-                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
 
 .hash
  *(.hash)
@@ -181,49 +168,47 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000       0xf2
+.text           0x00000000       0xf6
  *(.vectors)
- .vectors       0x00000000       0x26 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
-                0x00000000                __vector_default
+ .vectors       0x00000000       0x2a /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
                 0x00000000                __vectors
+                0x00000000                __vector_default
  *(.vectors)
  *(.progmem.gcc*)
-                0x00000026                . = ALIGN (0x2)
-                0x00000026                __trampolines_start = .
+                0x0000002a                . = ALIGN (0x2)
+                0x0000002a                __trampolines_start = .
  *(.trampolines)
- .trampolines   0x00000026        0x0 linker stubs
+ .trampolines   0x0000002a        0x0 linker stubs
  *(.trampolines*)
-                0x00000026                __trampolines_end = .
- *libprintf_flt.a:*(.progmem.data)
- *libc.a:*(.progmem.data)
+                0x0000002a                __trampolines_end = .
  *(.progmem*)
-                0x00000026                . = ALIGN (0x2)
+                0x0000002a                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000026                __ctors_start = .
+                0x0000002a                __ctors_start = .
  *(.ctors)
-                0x00000026                __ctors_end = .
-                0x00000026                __dtors_start = .
+                0x0000002a                __ctors_end = .
+                0x0000002a                __dtors_start = .
  *(.dtors)
-                0x00000026                __dtors_end = .
+                0x0000002a                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000026        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
-                0x00000026                __init
+ .init0         0x0000002a        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
+                0x0000002a                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000026        0x8 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
+ .init2         0x0000002a        0x8 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000002e       0x10 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
-                0x0000002e                __do_clear_bss
+ .init4         0x00000032       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                0x00000032                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -234,54 +219,56 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000003e        0x4 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
+ .init9         0x00000042        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
  *(.init9)
  *(.text)
- .text          0x00000042        0x2 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
-                0x00000042                __vector_1
-                0x00000042                __vector_12
-                0x00000042                __bad_interrupt
-                0x00000042                __vector_6
-                0x00000042                __vector_3
-                0x00000042                __vector_11
-                0x00000042                __vector_13
-                0x00000042                __vector_17
-                0x00000042                __vector_7
-                0x00000042                __vector_5
-                0x00000042                __vector_4
-                0x00000042                __vector_9
-                0x00000042                __vector_2
-                0x00000042                __vector_15
-                0x00000042                __vector_8
-                0x00000042                __vector_14
-                0x00000042                __vector_10
-                0x00000042                __vector_16
-                0x00000042                __vector_18
-                0x00000044                . = ALIGN (0x2)
+ .text          0x00000046        0x2 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
+                0x00000046                __vector_20
+                0x00000046                __vector_12
+                0x00000046                __bad_interrupt
+                0x00000046                __vector_6
+                0x00000046                __vector_3
+                0x00000046                __vector_11
+                0x00000046                __vector_13
+                0x00000046                __vector_17
+                0x00000046                __vector_19
+                0x00000046                __vector_7
+                0x00000046                __vector_5
+                0x00000046                __vector_4
+                0x00000046                __vector_9
+                0x00000046                __vector_2
+                0x00000046                __vector_15
+                0x00000046                __vector_8
+                0x00000046                __vector_14
+                0x00000046                __vector_10
+                0x00000046                __vector_16
+                0x00000046                __vector_18
+                0x00000046                __vector_1
+                0x00000048                . = ALIGN (0x2)
  *(.text.*)
  .text.PORT_Init
-                0x00000044        0x8 main.o
-                0x00000044                PORT_Init
+                0x00000048        0x8 main.o
+                0x00000048                PORT_Init
  .text.TIMER_Init
-                0x0000004c       0x20 main.o
-                0x0000004c                TIMER_Init
+                0x00000050       0x20 main.o
+                0x00000050                TIMER_Init
  .text.startup.main
-                0x0000006c       0x64 main.o
-                0x0000006c                main
+                0x00000070       0x64 main.o
+                0x00000070                main
  .text.USART_Init
-                0x000000d0        0xe usart.o
-                0x000000d0                USART_Init
+                0x000000d4        0xe usart.o
+                0x000000d4                USART_Init
  .text.USART_Transmit
-                0x000000de        0x8 usart.o
-                0x000000de                USART_Transmit
+                0x000000e2        0x8 usart.o
+                0x000000e2                USART_Transmit
  .text.USART_Receive
-                0x000000e6        0x8 usart.o
-                0x000000e6                USART_Receive
-                0x000000ee                . = ALIGN (0x2)
+                0x000000ea        0x8 usart.o
+                0x000000ea                USART_Receive
+                0x000000f2                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000000ee        0x0 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
-                0x000000ee                _exit
-                0x000000ee                exit
+ .fini9         0x000000f2        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+                0x000000f2                exit
+                0x000000f2                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -300,20 +287,25 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000000ee        0x4 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .fini0         0x000000f2        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
  *(.fini0)
-                0x000000f2                _etext = .
+                0x000000f6                _etext = .
 
-.data           0x00800060        0x0 load address 0x000000f2
-                [!provide]                PROVIDE (__data_start, .)
+.data           0x00800060        0x0 load address 0x000000f6
+                0x00800060                PROVIDE (__data_start, .)
  *(.data)
+ .data          0x00800060        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn2313a.o
+ .data          0x00800060        0x0 main.o
+ .data          0x00800060        0x0 usart.o
+ .data          0x00800060        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .data          0x00800060        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  *(.data*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
                 0x00800060                . = ALIGN (0x2)
                 0x00800060                _edata = .
-                [!provide]                PROVIDE (__data_end, .)
+                0x00800060                PROVIDE (__data_end, .)
 
 .bss            0x00800060        0x0
                 0x00800060                PROVIDE (__bss_start, .)
@@ -321,15 +313,15 @@ END GROUP
  *(.bss*)
  *(COMMON)
                 0x00800060                PROVIDE (__bss_end, .)
-                0x000000f2                __data_load_start = LOADADDR (.data)
-                0x000000f2                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x000000f6                __data_load_start = LOADADDR (.data)
+                0x000000f6                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800060        0x0
-                [!provide]                PROVIDE (__noinit_start, .)
+                0x00800060                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800060                PROVIDE (__noinit_end, .)
                 0x00800060                _end = .
-                [!provide]                PROVIDE (__heap_start, .)
+                0x00800060                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -368,19 +360,11 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x00000000       0x30
+.comment        0x00000000       0x11
  *(.comment)
- .comment       0x00000000       0x30 main.o
-                                 0x31 (size before relaxing)
- .comment       0x00000030       0x31 usart.o
-
-.note.gnu.avr.deviceinfo
-                0x00000000       0x40
- .note.gnu.avr.deviceinfo
-                0x00000000       0x40 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
-
-.note.gnu.build-id
- *(.note.gnu.build-id)
+ .comment       0x00000000       0x11 main.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 usart.o
 
 .debug
  *(.debug)
@@ -394,46 +378,53 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x60
+.debug_aranges  0x00000000       0xa0
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x30 main.o
  .debug_aranges
                 0x00000030       0x30 usart.o
+ .debug_aranges
+                0x00000060       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000080       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0x723
- *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x40e c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
- .debug_info    0x0000040e      0x23c main.o
- .debug_info    0x0000064a       0xd9 usart.o
+.debug_info     0x00000000      0x4af
+ *(.debug_info)
+ .debug_info    0x00000000      0x23c main.o
+ .debug_info    0x0000023c       0xd9 usart.o
+ .debug_info    0x00000315       0xcd /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .debug_info    0x000003e2       0xcd /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ *(.gnu.linkonce.wi.*)
 
-.debug_abbrev   0x00000000      0x5ff
+.debug_abbrev   0x00000000      0x250
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x3d7 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
- .debug_abbrev  0x000003d7      0x19d main.o
- .debug_abbrev  0x00000574       0x8b usart.o
+ .debug_abbrev  0x00000000      0x19d main.o
+ .debug_abbrev  0x0000019d       0x8b usart.o
+ .debug_abbrev  0x00000228       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .debug_abbrev  0x0000023c       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
 
-.debug_line     0x00000000      0x22c
- *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000       0x1a c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
- .debug_line    0x0000001a      0x155 main.o
- .debug_line    0x0000016f       0xbd usart.o
+.debug_line     0x00000000      0x24d
+ *(.debug_line)
+ .debug_line    0x00000000       0xf8 main.o
+ .debug_line    0x000000f8       0x99 usart.o
+ .debug_line    0x00000191       0x5b /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .debug_line    0x000001ec       0x61 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
 
 .debug_frame    0x00000000       0x98
  *(.debug_frame)
  .debug_frame   0x00000000       0x54 main.o
  .debug_frame   0x00000054       0x44 usart.o
 
-.debug_str      0x00000000      0x355
+.debug_str      0x00000000      0x1e7
  *(.debug_str)
- .debug_str     0x00000000      0x163 c:/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crtattiny2313.o
- .debug_str     0x00000163      0x1e0 main.o
-                                0x214 (size before relaxing)
- .debug_str     0x00000343       0x12 usart.o
-                                0x194 (size before relaxing)
+ .debug_str     0x00000000      0x1d5 main.o
+                                0x209 (size before relaxing)
+ .debug_str     0x000001d5       0x12 usart.o
+                                0x189 (size before relaxing)
 
 .debug_loc      0x00000000       0xa3
  *(.debug_loc)
@@ -442,18 +433,6 @@ END GROUP
 
 .debug_macinfo
  *(.debug_macinfo)
-
-.debug_weaknames
- *(.debug_weaknames)
-
-.debug_funcnames
- *(.debug_funcnames)
-
-.debug_typenames
- *(.debug_typenames)
-
-.debug_varnames
- *(.debug_varnames)
 
 .debug_pubtypes
  *(.debug_pubtypes)
